@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+    text-align: center;
+}
+#container{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+header{
+    text-align: left;
+}
+
+h1{
+    font-family: Titillium Web, sans-serif;
+}
+h2{
+    font-family: Titillium Web, sans-serif;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+}
+.head_para{
+    font-family: Titillium Web, sans-serif;
+}
+p{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+hr{
+    width: 700px;
+    border: 1.5px solid rgb(228, 167, 43);
+    margin-bottom: 20px;
+}
+@media (max-width: 500px) {
+    body{
+        max-width: 90%;
+    }
+    
+}
